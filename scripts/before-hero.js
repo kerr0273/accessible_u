@@ -19,6 +19,9 @@ $(document).ready(function() {
   var prevIcon = $('<img>').attr({
     'src': 'images/8675309-arrow-left.png'
   });
+  var prevIcon = $('<img>').attr({
+    'alt': 'left arrow'
+  });
   var nextIcon = $('<img>').attr({
     'src': 'images/8675309-arrow-right.png'
   });
